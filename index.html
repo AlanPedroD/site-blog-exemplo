@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pessoal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="index.html" class="logo">Meu Blog</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#posts">Posts</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo ao meu espaço!</h2>
+            <p>Compartilho ideias, dicas e histórias sobre o que mais gosto.</p>
+        </div>
+    </section>
+
+    <section id="posts" class="container">
+        <h2>Últimos Posts</h2>
+        <div class="categories">
+            <button data-category="all" class="active">Todos</button>
+            <button data-category="tecnologia">Tecnologia</button>
+            <button data-category="viagem">Viagem</button>
+            <button data-category="culinaria">Culinária</button>
+        </div>
+        <div id="post-list" class="post-grid"></div>
+        <div class="load-more-container">
+            <button id="load-more">Ver mais</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="container reveal">
+        <h2>Sobre Mim</h2>
+        <p>Sou um apaixonado por tecnologia, viagens e gastronomia. Criei este blog para compartilhar minhas experiências e aprendizados.</p>
+    </section>
+
+    <section id="contato" class="container reveal">
+        <h2>Contato</h2>
+        <p>Quer trocar uma ideia ou mandar sugestões? Entre em contato comigo!</p>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meu Blog - Todos os direitos reservados</p>
+    </footer>
+
+    <button id="back-to-top">↑</button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

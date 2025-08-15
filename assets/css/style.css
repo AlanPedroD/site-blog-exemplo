@@ -194,3 +194,10 @@ footer {
     display: none;
     font-size: 1.5rem;
 }
+
+@media(max-width: 360px){
+    .categories{
+        display: flex;
+        justify-content: space-between;
+    }
+}
